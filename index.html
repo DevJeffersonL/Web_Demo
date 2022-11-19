@@ -1,15 +1,17 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-</head>
-<body>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script> 
+  <script type="text/javascript">
+    $(function(){
+$(document).ready(function () {
+            $('#openApp')[0].click(); 
+        });
+    });
 
-	<a href="upi://pay?pa=jeffersonlakashiang@okaxis&pn=Jefferson Lakashiang&aid=uGICAgICPn53aVA" class="upi-pay1">Pay!</a>
-	<script type="text/javascript">
-		document.getElementById("upi-pay1").click();
-	</script>                                                                                                                             
-</body>
+      </script> 
+ </head> 
+ <body> 
+  <a href="upi://pay?pa=jeffersonlakashiang@okaxis&pn=Jefferson Lakashiang&aid=uGICAgICPn53aVA" id="openApp">redirect</a>  
+ </body>
 </html>
